@@ -1,3 +1,20 @@
+@font-face {
+    font-family: 'Norse';
+    src: url('../fonts/Norse.woff2') format('woff2'),
+        url('../fonts/Norse.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Norse';
+    src: url('../fonts/Norse-Bold.woff2') format('woff2'),
+        url('../fonts/Norse-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
 /*
   Josh's Custom CSS Reset
   https://www.joshwcomeau.com/css/custom-css-reset/
@@ -38,3 +55,41 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* My CSS */
+.container{
+  display:flex;
+  flex-direction: row;
+}
+
+.side{
+  width: 30vw;
+  height: 100vh;
+  background-image: url("../img/leo-chane-t1s7r4-l4Kk-unsplash.jpg");/*Photo by Leo Chane on Unsplash*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: fixed;
+}
+
+.header{
+  position: absolute;
+  top: 20%;;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background-color: rgb(0 0 0 / 0.5);
+  color: rgb(255 255 255);
+  width: 100%;
+  font-family: "Norse";
+  font-size: 2rem;
+  padding: 0.5rem;
+}
+
+img{
+  height: 15vh;
+}
+
+.main{
+  margin-left: 30vw;
+  padding: 1rem;
+}
+
