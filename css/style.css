@@ -141,6 +141,9 @@ button{
   margin: 2.5rem;
   padding: 0.5rem 2rem;
   border-radius: 0.5rem;
+  background-color: #1991E3;
+  border-color: #1991E3;
+  color: #fff;
 }
 
 span{
