@@ -137,6 +137,17 @@ section{
   padding-top: 1rem;
 }
 
+input:focus{
+  border-color: #1991E3;
+  outline: #1991E3;
+  box-shadow: 0rem 0.2rem 0.5rem rgb(0 0 0 /0.5);
+}
+
+input[type="password"]:user-invalid{
+  border-color: red;
+  outline: red;
+}
+
 button{
   margin: 2.5rem;
   padding: 0.5rem 2rem;
